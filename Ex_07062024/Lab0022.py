@@ -1,0 +1,18 @@
+shopping_list = ["milk","Bread","Butter","Poha"]
+print(shopping_list)
+print(type(shopping_list))
+print(len(shopping_list))
+print(shopping_list[2])
+#my_list = [1,2,3.14,True,"Avneet"]
+#print(my_list)
+#print(type(my_list[4]))
+shopping_list.append("Sugar")
+print(shopping_list)
+shopping_list.remove("Bread")
+print(shopping_list)
+shopping_list.insert(1,"Eggs")
+print(shopping_list)
+shopping_list.pop(2)
+print(shopping_list)
+shopping_list.reverse()
+print(shopping_list)
