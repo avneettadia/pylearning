@@ -1,4 +1,5 @@
-i=int(input("Enter the number:"))
-for i in range(i,1,-1):
-
-    print(i*i-1)
+num=int(input("Enter the number:\n"))
+factorial = 1
+for i in range(1, num+1):
+    factorial=factorial*i
+    print("The factorial of",num,"is",factorial)
